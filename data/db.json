@@ -1,0 +1,104 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "thumbnail": "book1-thumbnail.jpg",
+      "title": "The Great Gatsby",
+      "publisher": "Scribner",
+      "author": "F. Scott Fitzgerald",
+      "publishingYear": 1925,
+      "eanCode": "9780743273565",
+      "copiesInStock": 100
+    },
+    {
+      "id": 2,
+      "thumbnail": "book2-thumbnail.jpg",
+      "title": "To Kill a Mockingbird",
+      "publisher": "J.B. Lippincott & Co.",
+      "author": "Harper Lee",
+      "publishingYear": 1960,
+      "eanCode": "9780061120084",
+      "copiesInStock": 85
+    },
+    {
+      "id": 3,
+      "thumbnail": "book3-thumbnail.jpg",
+      "title": "1984",
+      "publisher": "Secker & Warburg",
+      "author": "George Orwell",
+      "publishingYear": 1949,
+      "eanCode": "9780451524935",
+      "copiesInStock": 75
+    },
+    {
+      "id": 4,
+      "thumbnail": "book4-thumbnail.jpg",
+      "title": "The Catcher in the Rye",
+      "publisher": "Little, Brown and Company",
+      "author": "J.D. Salinger",
+      "publishingYear": 1951,
+      "eanCode": "9780316769480",
+      "copiesInStock": 90
+    },
+    {
+      "id": 5,
+      "thumbnail": "book5-thumbnail.jpg",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "publisher": "Scholastic",
+      "author": "J.K. Rowling",
+      "publishingYear": 1997,
+      "eanCode": "9780590353427",
+      "copiesInStock": 120
+    },
+    {
+      "id": 6,
+      "thumbnail": "book6-thumbnail.jpg",
+      "title": "The Hobbit",
+      "publisher": "Allen & Unwin",
+      "author": "J.R.R. Tolkien",
+      "publishingYear": 1937,
+      "eanCode": "9780618260300",
+      "copiesInStock": 80
+    },
+    {
+      "id": 7,
+      "thumbnail": "book7-thumbnail.jpg",
+      "title": "The Da Vinci Code",
+      "publisher": "Doubleday",
+      "author": "Dan Brown",
+      "publishingYear": 2003,
+      "eanCode": "9780385504201",
+      "copiesInStock": 95
+    },
+    {
+      "id": 8,
+      "thumbnail": "book8-thumbnail.jpg",
+      "title": "Pride and Prejudice",
+      "publisher": "T. Egerton",
+      "author": "Jane Austen",
+      "publishingYear": 1813,
+      "eanCode": "9780141439518",
+      "copiesInStock": 70
+    },
+    {
+      "id": 9,
+      "thumbnail": "book9-thumbnail.jpg",
+      "title": "The Lord of the Rings",
+      "publisher": "Allen & Unwin",
+      "author": "J.R.R. Tolkien",
+      "publishingYear": 1954,
+      "eanCode": "9780544003415",
+      "copiesInStock": 110
+    },
+    {
+      "id": 10,
+      "thumbnail": "book10-thumbnail.jpg",
+      "title": "The Hunger Games",
+      "publisher": "Scholastic",
+      "author": "Suzanne Collins",
+      "publishingYear": 2008,
+      "eanCode": "9780439023481",
+      "copiesInStock": 105
+    }
+  ]
+}
