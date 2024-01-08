@@ -21,16 +21,13 @@ const Create = ({ books }) => {
       copiesInStock,
     };
 
-    books = [...books, book];
-    console.log(books);
-
-    // fetch("https://mocki.io/v1/ee0353d4-0cb7-49f3-831a-6f18818a26e3", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(book),
-    // }).then(() => {
-    //   console.log("new book added");
-    // });
+    fetch("https://mocki.io/v1/ee0353d4-0cb7-49f3-831a-6f18818a26e3", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(book),
+    }).then(() => {
+      console.log("new book added");
+    });
   };
 
   return (

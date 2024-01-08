@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import MyModal from "./ShowModal";
 
 const Navbar = () => {
   const showSidebar = () => {
@@ -11,6 +13,10 @@ const Navbar = () => {
     sidebar.style.display = "none";
   };
 
+  const [showModal, setShowModal] = useState(false);
+
+  const toggle = () => setShowModal(!showModal);
+
   return (
     <div>
       <nav className="navbar">
@@ -20,9 +26,9 @@ const Navbar = () => {
             {" "}
             Home{" "}
           </Link>
-          <Link className="hideOnMobile" to="/create">
+          <span className="hideOnMobile" onClick={toggle}>
             Add Book
-          </Link>
+          </span>
           <span className="hideOnDesktop" onClick={showSidebar}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,6 +61,7 @@ const Navbar = () => {
           <Link to="/create">Add Book</Link>
         </div>
       </nav>
+      {showModal && <MyModal toggle={toggle} />}
     </div>
   );
 };
