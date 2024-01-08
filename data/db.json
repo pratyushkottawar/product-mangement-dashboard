@@ -2,7 +2,7 @@
   "Books": [
     {
       "id": 1,
-      "thumbnail": "book1-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/Yy5ZnbbrcSMxJ9bSuFtxdX2N8ovgy62vB1W1Q19zYvw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lZGl0/Lm9yZy9waG90b3Mv/aW1nL2Jsb2cvbTY4/LWJvb2stY292ZXIt/dGVtcGxhdGVzLmpw/Zy04NDAuanBn",
       "title": "The Great Gatsby",
       "publisher": "Scribner",
       "author": "F. Scott Fitzgerald",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "thumbnail": "book2-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/U1KeQOKsevrCTUY1twYVA00wOClJGtKW04J9xUZtor0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFEYW9u/R2U2M1EvMS8wLzUw/MXcvY2FudmEtYm9s/ZC1vcmFuZ2UtYnVz/aW5lc3MtZ3VpZGUt/Ym9vay1jb3Zlci0z/cFg5RS1SMHB2MC5q/cGc",
       "title": "To Kill a Mockingbird",
       "publisher": "J.B. Lippincott & Co.",
       "author": "Harper Lee",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "thumbnail": "book3-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/FWs6kJsibDOANFGuKICdMLh4puRFTnPaPZO9PBeflVc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y3JlYXRvcHkuY29t/L2Jsb2cvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDcvRHIu/LVNldXNzJUUyJTgw/JTk5cy1Ib3JzZS1N/dXNldW0uanBn",
       "title": "1984",
       "publisher": "Secker & Warburg",
       "author": "George Orwell",
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "thumbnail": "book4-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/py_QEK2gDbqXzorZ_FgUnELHJdQTRADAJga2U4WDs6o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9taWJs/YXJ0LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8xMS9h/bnRpLXBhcmFkb3gt/NjY3eDEwMjQuanBn",
       "title": "The Catcher in the Rye",
       "publisher": "Little, Brown and Company",
       "author": "J.D. Salinger",
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "thumbnail": "book5-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/1WmgDmJlP8AGZhtG_Q_OHNIJu5mUj62mS0mq6RHqBTw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk0LzY2/LzcwLzk0NjY3MGUw/NTFiNDg5MWRmMTll/OTM0NTY4MDU2M2Nl/LmpwZw",
       "title": "Harry Potter and the Sorcerer's Stone",
       "publisher": "Scholastic",
       "author": "J.K. Rowling",
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "thumbnail": "book6-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/nYB4FPHb1U0AfJFEW8IIFTOG5Op-zi-K4fkI7w3yXKc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lZGl0/Lm9yZy9waG90b3Mv/ZWRpdG9yL2pzb24v/MjAyMC8xMi8xNy8w/L2QvMGRhNWYyZjMy/ODlkNzI0YzdiNGQy/OThkYmYyZDRhODFf/ZWRpdC5vcmcuanBn/LTM3Ni5qcGc",
       "title": "The Hobbit",
       "publisher": "Allen & Unwin",
       "author": "J.R.R. Tolkien",
@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "thumbnail": "book7-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/W0p3ZWilAvO6AoTh4goC_sg1wBqT14wsfC608NLWJ_0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lZGl0/Lm9yZy9waG90b3Mv/ZWRpdG9yL2pzb24v/MjAyMS8wNS8xMi9m/LzcvZjdiYjU3MTMx/MTk4YWQwYTlmNGMw/ODU0YTFjM2IwNjZf/ZWRpdC5vcmcuanBn/LTM3Ni5qcGc",
       "title": "The Da Vinci Code",
       "publisher": "Doubleday",
       "author": "Dan Brown",
@@ -72,7 +72,7 @@
     },
     {
       "id": 8,
-      "thumbnail": "book8-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/33qajASBN6Fw2w-AFSXtaB1SGfn7DtuPQg5zCpD3nFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/LWNkbi5yZWVkc3ku/Y29tL3VwbG9hZHMv/MjAxOS8xMi9ib3kt/YXQtdGhlLWJhY2su/anBn",
       "title": "Pride and Prejudice",
       "publisher": "T. Egerton",
       "author": "Jane Austen",
@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "thumbnail": "book9-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/WukfeHwVQYvRLx4aJyxuGgAE6Sbnl9UtWjceDJvrkPI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2U1LzU0/L2NmL2U1NTRjZjU1/YTVmM2E1OGQzNWNm/ZjAzNzQ4YzU5ZjYx/LmpwZw",
       "title": "The Lord of the Rings",
       "publisher": "Allen & Unwin",
       "author": "J.R.R. Tolkien",
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "thumbnail": "book10-thumbnail.jpg",
+      "thumbnail": "https://imgs.search.brave.com/CEYveAwk6oe_u7wgoIuYD41jXVhSM_Y1fnAPG7cGnhE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9lZGl0/Lm9yZy9waG90b3Mv/ZWRpdG9yL2pzb24v/MjAyMS8wNS8zMS83/LzYvNzY2NzkwOTU1/MjcyMGE0YTA4YTNi/Y2IwNGMzNDQ1YjFf/ZWRpdC5vcmcuanBn/LTM3Ni5qcGc",
       "title": "The Hunger Games",
       "publisher": "Scholastic",
       "author": "Suzanne Collins",

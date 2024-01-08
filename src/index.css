@@ -6,12 +6,12 @@
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  padding: 12px;
   display: flex;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid gainsboro;
 }
 .navbar h1 {
   color: #f1356d;
@@ -44,7 +44,63 @@
   width: 265px;
   height: 300px;
   margin: 15px 15px;
-  border: 1px solid black;
+  border: 1px solid #dad9d9;
+  border-radius: 7px;
+  position: relative;
+}
+
+.book-preview a {
+  text-decoration: none;
+}
+
+.picture-background {
+  height: 170px;
+  background-color: #f2f2f2;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  max-height: 150px;
+}
+
+.picture:hover {
+  max-height: 165px;
+  padding-top: 3px;
+  transition: 0.3s;
+}
+
+.description {
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.description:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.author {
+  margin: 15px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.author:hover {
+  font-weight: bold;
+}
+
+.copiesInStock {
+  font-size: 12px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  bottom: 4px;
 }
 
 .create {
@@ -109,6 +165,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  font-size: 18px;
 }
 
 .sidelink:first-child {
@@ -116,7 +173,7 @@
 }
 
 .hideOnDesktop {
-  margin-right: 10px;
+  margin-right: 25px;
   margin-bottom: 50px;
 }
 
@@ -126,7 +183,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .sidebar {
     width: 100%;
   }
@@ -137,7 +194,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .hideOnDesktop {
+  .copiesInStock {
+    font-size: 10px;
   }
 }
 
