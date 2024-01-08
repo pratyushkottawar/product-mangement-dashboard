@@ -46,3 +46,103 @@
   margin: 15px 15px;
   border: 1px solid black;
 }
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.sidebar a:hover {
+  color: #f1356d;
+}
+
+.sidelink {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.sidelink:first-child {
+  margin-top: 50px;
+}
+
+.hideOnDesktop {
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 650px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: 100%;
+  }
+  .navTitle {
+    font-size: 1rem;
+  }
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .hideOnDesktop {
+  }
+}
+
+@media (min-width: 650px) {
+  .hideOnDesktop {
+    display: none;
+  }
+}
