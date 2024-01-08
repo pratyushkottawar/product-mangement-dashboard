@@ -1,20 +1,7 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
-  const [books, setBooks] = useState(null);
-
-  useEffect(() => {
-    fetch("https://mocki.io/v1/97aeab97-6465-4634-aecc-a8644173d69a")
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data);
-        setBooks(data);
-      });
-  }, []);
-
+const Home = ({ books }) => {
+  console.log(books);
   return (
     <div className="home">
       {books &&

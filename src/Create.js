@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Create = () => {
+const Create = ({ books }) => {
   const [thumbnail, setThumbnail] = useState("");
   const [title, setTitle] = useState("");
   const [publisher, setPublisher] = useState("");
@@ -21,13 +21,16 @@ const Create = () => {
       copiesInStock,
     };
 
-    fetch("https://mocki.io/v1/ee0353d4-0cb7-49f3-831a-6f18818a26e3", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(book),
-    }).then(() => {
-      console.log("new book added");
-    });
+    books = [...books, book];
+    console.log(books);
+
+    // fetch("https://mocki.io/v1/ee0353d4-0cb7-49f3-831a-6f18818a26e3", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(book),
+    // }).then(() => {
+    //   console.log("new book added");
+    // });
   };
 
   return (
